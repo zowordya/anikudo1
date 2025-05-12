@@ -1,4 +1,4 @@
-aiogram==3.20.0.post0
+aiogram==3.0.0b7
 aiohttp==3.8.6
 httpx==0.24.1
 beautifulsoup4==4.12.2
