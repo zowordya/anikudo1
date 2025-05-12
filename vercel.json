@@ -5,6 +5,7 @@
       "src": "main.py",
       "use": "@vercel/python",
       "config": {
+        "pythonVersion": "3.11"
         "maxLambdaSize": "15mb"
       }
     }
