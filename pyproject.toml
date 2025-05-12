@@ -1,0 +1,17 @@
+[project]
+name = "kudoprojx"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiogram>=3.20.0.post0",
+    "aiohttp>=3.11.18",
+    "bs4>=0.0.2",
+    "dotenv>=0.9.9",
+    "fastapi>=0.115.12",
+    "flet[all]==0.28.2",
+    "g4f>=0.5.2.2",
+    "python-dotenv>=1.1.0",
+    "uvicorn>=0.34.2",
+]
