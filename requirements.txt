@@ -1,8 +1,7 @@
-aiogram==3.0.0b7
-aiohttp==3.8.6
+aiogram==3.0.0
+aiohttp>=3.9.0
 httpx==0.24.1
 beautifulsoup4==4.12.2
-bs4==0.0.2
 python-dotenv==1.0.0
 flet[all]==0.28.2
 g4f==0.5.2.2
