@@ -1,7 +1,10 @@
-flet==0.10.0
-aiogram==3.0.0
+aiogram==3.20.0.post0
+aiohttp==3.8.6
 httpx==0.24.1
 beautifulsoup4==4.12.2
-g4f>=0.1.3.5
+bs4==0.0.2
 python-dotenv==1.0.0
-aiohttp>=3.9.0  # Обновленная версия
+flet[all]==0.28.2
+g4f==0.5.2.2
+uvicorn==0.34.2
+fastapi==0.115.2
