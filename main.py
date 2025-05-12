@@ -237,7 +237,7 @@ dp = Dispatcher()
 
 @dp.message(CommandStart())
 async def start_handler(message: types.Message):
-    webapp_url = f"http://localhost:8550/user_id={message.from_user.id}"
+    webapp_url = f"https://anikudo1-git-main-sakutos-projects.vercel.app//user_id={message.from_user.id}"
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text="Открыть Anime WebApp", web_app=WebAppInfo(url=webapp_url))]
     ])
