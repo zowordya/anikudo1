@@ -1,3 +1,5 @@
+python_version < "3.12"
+
 flet==0.10.0
 aiogram==3.0.0
 httpx==0.24.1
